@@ -1,0 +1,24 @@
+@import '~backpack.css';
+@import "./facebook/header";
+@import "./facebook/body";
+@import "./facebook/footer";
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+body.is-login {
+    background-color: #e9ebee;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fb__container {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}

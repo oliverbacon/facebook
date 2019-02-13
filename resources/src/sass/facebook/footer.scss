@@ -1,0 +1,48 @@
+.fb__footer {
+    margin-top: 90px;
+    font-size: 12px;
+    line-height: 19.2px;
+    color: #737373;
+}
+
+.fb__footer a {
+    color: #365899;
+}
+
+.fb__footer-top {
+    border-bottom: 1px solid #dddfe2;
+    padding-bottom: 9px;
+}
+
+.fb__footer-center {
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.fb__footer-bottom {
+    font-size: 11px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.fb__footer-list li {
+    display: inline-block;
+    padding-right: 7px;
+}
+
+.fb__footer-center .fb__footer-list li {
+    padding-right: 16px;
+}
+
+.fb__footer-ad-icon {
+    position: relative;
+    top: -2px;
+    vertical-align: middle;
+    background-image: url("../../src/images/dunno.png");
+    background-size: 500px 98px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    background-position: -414px -49px;
+    width: 16px;
+}
